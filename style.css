@@ -1,0 +1,46 @@
+body {
+  background-image: url(bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+body > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.question {
+  padding: 20px;
+}
+.choice {
+  padding: 10px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1em;
+  }
+  .question {
+    padding: 10px;
+    font-size: 15px;
+  }
+  .choice,
+  .link {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 576px) {
+  .question {
+    font-size: 10px;
+  }
+  .choice,
+  .link {
+    padding: 5px;
+    font-size: 8px;
+  }
+}
