@@ -5,7 +5,7 @@ This project showcases my layout skills,with some Js functionalites, and persona
 
 ## 📸 Live Demo
 
-👉 [Click here to visit the live site](https://anas-mern.github.io/guess-word/)  
+👉 [Click here to visit the live site](https://anas-mern.github.io/quiz/)  
 *(Hosted via GitHub Pages)*
 
 ## 📁 Project Structure
